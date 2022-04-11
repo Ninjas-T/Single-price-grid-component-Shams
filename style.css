@@ -52,7 +52,7 @@ section:nth-child(1) h2, h3, p {
 
 /*SECOND SECTION STYLE STARTS*/
 section:nth-child(2) {
-    height: 42vh;
+    height: 50vh;
     width: 50%;
     background-color: hsl(179,61%,43%);
     border-bottom-left-radius: 5px;
@@ -78,6 +78,11 @@ section:nth-child(2) a {
     box-shadow: 0px 20px 35px rgba(0, 0, 0, 0.2);
 }
 
+section:nth-child(2) a:hover {
+    background-color: hsl(146,27%,85%);
+    color: hsl(71, 73%, 54%);
+}
+
 section:nth-child(2) span {
     font-size: 25px;
     padding-right: 5px;
@@ -92,30 +97,35 @@ section:nth-child(2) p .month {
 }
 
 section:nth-child(2) .access{
-    margin-bottom: 2.5rem;
+    margin-bottom: 3.7rem;
 } 
 /*SECOND SECTION STYLE ENDS*/
 
 /*THIRD SECTION STYLE STARTS*/
 section:nth-child(3) {
-    height: 42vh;
+    height: 50vh;
     width: 45%;
     background-color: hsl(179,47%,51%); 
     border-bottom-right-radius: 5px;
 }
 
-section:nth-child(3) h3, p {
+section:nth-child(3) h3, ul {
     color: #fff;
     margin: 10px;
 }
 
 section:nth-child(3) h3 {
-    font-weight: 500;
+    font-weight: 600;
 }
 
-section:nth-child(3) p {
-    opacity: 0.6;
-    width: 75%;
+section ul {
+    opacity: 0.8;
+    list-style: none;
+    color: white;
+}
+
+section ul li {
+    margin-bottom: 0.5rem;
 }
 /*THIRD SECTION STYLE ENDS*/
 
@@ -141,7 +151,7 @@ section:nth-child(3) p {
     }
 }
 /* mobile */
-@media (max-width: 768px){
+@media (max-width: 667px){
     body {
         display: flex;
         justify-content: center;
@@ -149,6 +159,7 @@ section:nth-child(3) p {
     }
     
     main {
+        width: 370px;
         height: 100%;
         display: flex;
         flex-wrap: nowrap;
