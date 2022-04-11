@@ -1,0 +1,121 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Karla', sans-serif;
+}
+
+body {
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: hsl(204, 43%, 93%);
+}
+
+main {
+    width: 50%;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+section {
+    padding: 2rem;
+}
+
+/*FIRST SECTION STYLE STARTS*/
+section:nth-child(1) {
+    width: 95%;
+    height: 40vh;
+    background-color: #fff;
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+}
+
+section:nth-child(1) h2{
+    color: hsl(179,61%,43%);
+}
+
+section:nth-child(1) h3{
+    color: hsl(71, 73%, 54%);
+}
+
+section:nth-child(1) p{
+    color: rgb(175, 178, 185);
+    font-weight: 500;
+}
+
+section:nth-child(1) h2, h3, p {
+    margin: 15px;
+}
+/*FIRST SECTION STYLE ENDS*/
+
+/*SECOND SECTION STYLE STARTS*/
+section:nth-child(2) {
+    height: 42vh;
+    width: 50%;
+    background-color: hsl(179,61%,43%);
+    border-bottom-left-radius: 5px;
+}
+
+section:nth-child(2) h3 {
+    font-weight: 500;
+}
+
+section:nth-child(2) h3, p, a {
+    color: #fff;
+    opacity: 0.9;
+    margin: 15px;
+}
+
+section:nth-child(2) a {
+    text-decoration: none;
+    padding: 12px;
+    background-color: hsl(71, 73%, 54%);
+    display: inline-block;
+    width: 250px;
+    text-align: center;
+    border-radius: 5px;
+    box-shadow: 0px 20px 35px rgba(0, 0, 0, 0.2);
+}
+
+section:nth-child(2) span {
+    font-size: 25px;
+    padding-right: 5px;
+    font-weight: 700;
+}
+
+section:nth-child(2) p .month {
+    opacity: 0.5;
+    font-size: 15px;
+    font-weight: 300;
+    letter-spacing: 1px;
+}
+
+/*SECOND SECTION STYLE ENDS*/
+
+/*THIRD SECTION STYLE STARTS*/
+section:nth-child(3) {
+    height: 42vh;
+    width: 45%;
+    background-color: hsl(179,47%,51%); 
+    border-bottom-right-radius: 5px;
+}
+
+section:nth-child(3) h3, p {
+    color: #fff;
+    margin: 10px;
+}
+
+section:nth-child(3) h3 {
+    font-weight: 500;
+}
+
+section:nth-child(3) p {
+    opacity: 0.6;
+    width: 75%;
+}
+
+/*THIRD SECTION STYLE ENDS*/
+
+/*MEDIA QUERIES*/
