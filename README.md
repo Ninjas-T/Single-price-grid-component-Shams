@@ -23,12 +23,8 @@ Users should be able to:
 
 ### Screenshot
 
-<!-- <div display='flex'>
-  <img src ='https://i.ibb.co/bF0K1xr/screencapture-192-168-1-11-5501-index-html-2022-04-12-01-22-58.png" alt="screencapture-192-168-1-11-5501-index-html-2022-04-12-01-22-58' width="500" height="250">
-</div>
-<div display='flex'>
-<img src="https://i.ibb.co/NNcZ2yZ/screencapture-ninjas-t-github-io-Single-price-grid-component-Shams-2022-04-12-01-33-29.png" width='190' height='250' />
-</div> -->
+<img src='https://i.ibb.co/cyxVs3R/screencapture-ninjas-t-github-io-Single-price-grid-component-Shams-2022-04-12-01-33-29.png'>
+<img src='https://i.ibb.co/2K0LbkK/screencapture-192-168-1-11-5501-index-html-2022-04-12-01-22-58.png'>
 
 ---
 
